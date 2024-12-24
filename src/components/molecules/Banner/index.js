@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { FaDownload } from 'react-icons/fa';
 import { RiFolderInfoFill } from 'react-icons/ri';
-import TypeAnimation from 'react-type-animation';
+import { TypeAnimation } from 'react-type-animation';
 import { motion } from 'framer-motion';
 import Lottie from 'react-lottie';
 import coding from '../../../assets/coding.json';
@@ -29,7 +29,7 @@ const Banner = () => {
         </h2>
         <h1 className='text-4xl font-semibold mb-0 translate-y-[-50%] sm:translate-y-[-0%]'>
           Anjali Sharma
-          </h1>
+        </h1>
         <div className='my-4'>
           <TypeAnimation
             className='text-2xl text-primary font-bold translate-y-[-80%] sm:translate-y-[-0%]'
@@ -51,9 +51,12 @@ const Banner = () => {
         <p className='text-neutral max-w-xl mb-6 font-medium translate-y-[-20%] sm:translate-y-[-0%]'>
           As a Frontend Developer, I am dedicated to delivering high-quality web
           applications that cater to my clients' needs. With a strong background
-          in <br/>full-stack development, I excel in leveraging technologies like
-          React.js, <br/>Next.js, TypeScript, MongoDB, Express.js, and Node.js to
-          build scalable <br/>and resilient web solutions.
+          in <br />
+          full-stack development, I excel in leveraging technologies like
+          React.js, <br />
+          Next.js, TypeScript, MongoDB, Express.js, and Node.js to build
+          scalable <br />
+          and resilient web solutions.
           {/* I am a Front-end Developer. I am very passionate to my work and
           dedicated to explore New Tools And Technologies. */}
         </p>
